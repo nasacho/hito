@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+*{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+body{
+  background-image: linear-gradient(to right,#3A6DA1,#000);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+align-items: center;
+  
+}
+.container{
+  background-image:
+  linear-gradient(to right,#1c606d 30%,rgba(0,0,0,0.200)),
+  url(297824-Tyler_Durden-Fight_Club-Brad_Pitt.jpg);
+  background-position: right;
+  background-size: cover;
+  width: 90%;
+  height: 630px;
+}
+.container: :hover{
+    background-image:
+  linear-gradient(to right,#1c606d 30%,transparent)
+  url(297824-Tyler_Durden-Fight_Club-Brad_Pitt.jpg);
+  
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+}
+.logo{
+font-size: 20px;
+text-transform: uppercase;
+}
+ul{
+  width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul a{
+  border-bottom: 2px solid transparent ;
+}
+ul a:hover{
+  border-bottom-color: white
+}
+.content{
+  color: white;
+  width: 50%;
+  margin-top: 50px;
+  padding: 30px;
+} 
+.content h2{
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.content p{
+  letter-spacing: 2px;
+  width: 300px;
+  padding: 15px 0;
+}
